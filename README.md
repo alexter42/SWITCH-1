@@ -9,13 +9,13 @@
 <p>
   <a href="https://travis-ci.org/LexieCore/test"><img src="https://travis-ci.com/LexieCore/test.svg?token=Hrz4Yuyp2x9BS2wSqwRH&branch=master" alt="Build Status"></a>
   <a ><img src="https://img.shields.io/github/downloads/LexieCore/test/latest/total.svg" alt="Build status"></a>
-  <a href="https://github.com/LexieCore/test/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%20v2-pink.svg" alt="license"></a>
+  <a href="https://github.com/Switch-Mexico/SWITCH/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%20v2-pink.svg" alt="license"></a>
 </p>
 
 <h4>Preview</h4>
 
 <h3>Download</h3>
-<p>Builds are available for <strong>macOS</strong>, <strong>Debian</strong> and <strong>Windows</strong>. Visit <a href="https://github.com/LexieCore/test/releases">SWITCH GitHub Releases</a></p>
+<p>Builds are available for <strong>macOS</strong>, <strong>Debian</strong> and <strong>Windows</strong>. Visit <a href="https://github.com/Switch-Mexico/SWITCH/releases">SWITCH GitHub Releases</a></p>
 
 
 <h3>License</h3>
