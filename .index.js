@@ -27,7 +27,7 @@ const minWidth = 1000
 const minHeight = 700
 
 const resizeable = true
-const frame = true
+const frame = false
 
 // -- Set up paths -------------------------------------------------------------
 
