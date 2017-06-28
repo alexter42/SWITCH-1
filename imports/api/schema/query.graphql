@@ -1,0 +1,5 @@
+type Query {
+  me: User
+  user(_id: ID!): User
+  allUsers: [User]!
+}
