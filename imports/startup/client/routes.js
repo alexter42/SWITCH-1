@@ -4,7 +4,6 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
 import MapContainer from '../../components/Map';
 import DropzoneComponent from '../../components/Dropzone';
 
-import 'leaflet/dist/leaflet.css';
 
 const AppRoutes = appProps => {
   console.log('routes');
