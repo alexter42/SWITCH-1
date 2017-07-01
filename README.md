@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <img src="./public/assets/img/logo-b.png" alt="SWITCH" width="200">
+  <img src="./src/public/assets/img/logo-b.png" alt="SWITCH" width="200">
   <h4>A capacity expansion model for the electricity sector.</h4>
   <br>
 </h1>
