@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://travis-ci.org/LexieCore/test"><img src="https://travis-ci.com/LexieCore/test.svg?token=Hrz4Yuyp2x9BS2wSqwRH&branch=master" alt="Build Status"></a>
-  <a ><img src="https://img.shields.io/github/downloads/LexieCore/test/latest/total.svg" alt="Build status"></a>
+  <a ><img src="https://img.shields.io/github/downloads/Switch-Mexico/SWITCH/total.svg" alt="Build status"></a>
   <a href="https://github.com/Switch-Mexico/SWITCH/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-Apache%20v2-pink.svg" alt="license"></a>
 </p>
 
