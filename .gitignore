@@ -1,14 +1,14 @@
-.meteor/local
-.meteor/meteorite
-node_modules/*
-.app/*
-.cache/*
-.dist
-.DS_Store
-.idea/
-*.iml
-.bundle/*
-npm-debug.log
-.tmp
-package.json
+src/.meteor/local
+src/.meteor/meteorite
+src/node_modules/*
+src/.app/*
+src/.cache/*
+src/.dist
+src/.DS_Store
+src/.idea/
+src/*.iml
+src/.bundle/*
+src/npm-debug.log
+src/.tmp
+src/package.json
 
