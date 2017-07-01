@@ -535,6 +535,7 @@ input:-ms-input-placeholder {
     
 }
 .main_menu_bg .navbar-default {
+    z-index: 999999;
     background-color: transparent; 
     border-color: transparent; 
 	transition:.6s;
@@ -552,6 +553,7 @@ input:-ms-input-placeholder {
 }
 
 .main_menu_bg .navbar {
+    
     margin-bottom:0px;
     float:right;
     margin-right: 10%;
@@ -566,7 +568,7 @@ input:-ms-input-placeholder {
 
 
 .main_menu_bg .navbar-nav>li>a {
-    z-index: 99;
+    z-index: 999;
     position: relative;
     color: #fff;
     cursor: pointer;
@@ -635,7 +637,7 @@ input:-ms-input-placeholder {
     bottom: 415px;
 }
 .top-img {
-    z-index: 99999;
+    z-index: 999;
     position: absolute;
     top: 0;
     right: 0;
