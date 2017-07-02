@@ -5,9 +5,11 @@ import MapContainer from '../../components/Map';
 import DropzoneComponent from '../../components/Dropzone';
 import Emissions from '../../components/Information/Emissions'
 
+import FileManager from './fileManager'
+
 const AppRoutes = appProps => {
   console.log('routes');
-  console.log(appProps);
+  console.log(appProps,'appprops');
   return (
     <Router>
       <div>
@@ -19,7 +21,12 @@ const AppRoutes = appProps => {
             <NavLink id="info" className="menu-item" replace to="/info">Information</NavLink>
             <DropzoneComponent
               handleFile={file => {
-                appProps.handleSavePointsFile(file);
+                
+                if (file.name === 'PowerPlants.csv'){
+                  appProps.handleSavePointsFile(file);
+                  console.log(file.name);
+                }
+                
               }}
             />
           </Menu>
