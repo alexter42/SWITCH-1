@@ -512,6 +512,7 @@ input:-ms-input-placeholder {
 /* navbar section */
 .menu-scroll {
     padding-top: 0px;
+    margin-right: 0px!important;
     padding-bottom: 0px;
     position: fixed;
     top: 0; 
@@ -523,13 +524,18 @@ input:-ms-input-placeholder {
     background-color: #fff;
 	color:#ffd600;
 	height: 80px;
+    background: #0067c8;
 	
 }
 
 .main_menu_bg{
 	margin-top:0px;
+    width: 100%;
+    background: #0067c8;
+    
 }
 .main_menu_bg .navbar-default {
+    z-index: 999999;
     background-color: transparent; 
     border-color: transparent; 
 	transition:.6s;
@@ -538,23 +544,31 @@ input:-ms-input-placeholder {
 
 .main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
   background: rgb(255, 255, 255) ;
-  color: rgb(0,143,255);
+  color: #0067c8;
 }
  
 .menu-scroll.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
   background: rgb(255, 255, 255) ;
-  color: rgb(0,143,255);
+  color: #0067c8;
 }
 
 .main_menu_bg .navbar {
+    
     margin-bottom:0px;
     float:right;
     margin-right: 10%;
 }
 
+.container-fix {
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-right: 0px;
+    margin-left: auto; 
+}
+
 
 .main_menu_bg .navbar-nav>li>a {
-    z-index: 99;
+    z-index: 999;
     position: relative;
     color: #fff;
     cursor: pointer;
@@ -583,6 +597,7 @@ input:-ms-input-placeholder {
     padding: 10px 25px;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
+    
 }
 
 .main_menu_bg:hover{
@@ -600,6 +615,7 @@ input:-ms-input-placeholder {
     height:350px;
 }
 
+
 .container-title img {
     cursor: pointer;
     margin: auto;
@@ -611,17 +627,17 @@ input:-ms-input-placeholder {
     z-index: 0;
     position: absolute;
     left: 0;
-    bottom: 428px;
+    bottom: 390px;
 }
 
 .bottom-img-right{
     z-index: 0;
     position: absolute;
     right: 0;
-    bottom: 430px;
+    bottom: 415px;
 }
-.bottom-img-top{
-    z-index: 0;
+.top-img {
+    z-index: 999;
     position: absolute;
     top: 0;
     right: 0;
@@ -864,6 +880,8 @@ input:-ms-input-placeholder {
 
 .single_about{
 	margin-top: 50px;
+    width: 70%;
+    margin-left:15%;
 }
 .single_about_img{
 	margin-bottom:30px;
@@ -871,7 +889,8 @@ input:-ms-input-placeholder {
 .single_about h3{
     font-size: 18px;
     font-family: 'big_johnregular';
-    line-height: 50px;
+    line-height: 40px;
+    margin-bottom: 0px;
 }
 .single_about h3 span{
 	font-size:48px;
