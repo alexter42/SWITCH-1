@@ -69,6 +69,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		font-size: 10px;
 	}
     
+    .head_title{
+        overflow:hidden;
+        font-size:8px;
+        font-family: 'open_sanslight';
+        color: orange;
+    }
+    
 
 }
 /* Landscape phones and portrait tablets */
@@ -390,6 +397,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin: auto;
         
     }   
+    
+    .head_title{
+        overflow:hidden;
+        font-size:8px;
+        font-family: 'open_sanslight';
+        color: deeppink;
+    }
     
     
     
@@ -787,7 +801,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         overflow:hidden;
         font-size:8px;
         font-family: 'open_sanslight';
-        color:#8888;
+        color:blue;
     }
 
 
@@ -1127,7 +1141,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         overflow:hidden;
         font-size:8px;
         font-family: 'open_sanslight';
-        color:#8888;
+        color: red;
     }
 
 
