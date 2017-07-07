@@ -264,11 +264,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         border-radius: 15px 15px 15px 15px;
     }
 
-    
-    
-
-
-
     /* Scroll Down*/
     .scrolldown {
         position: absolute;
@@ -471,6 +466,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         background: #fff;
         color: black;
     }
+    
 	.carousel-caption p {
 		font-size: 27px;
 		line-height: 32px;
@@ -786,6 +782,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin: auto;
         
     }   
+    
+    .head_title{
+        overflow:hidden;
+        font-size:8px;
+        font-family: 'open_sanslight';
+        color:#8888;
+    }
+
+
     
 }
 
@@ -808,6 +813,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		margin: 80px auto;
 		width: 55%;
 	}
+
 	.carousel-caption .btn_bg a {
 		left: 15%;
 	}
@@ -1117,13 +1123,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }   
     
     
-    
-    
-    
-    
-    
-    
-    
+    .head_title{
+        overflow:hidden;
+        font-size:8px;
+        font-family: 'open_sanslight';
+        color:#8888;
+    }
+
+
 }
 
 

@@ -793,8 +793,10 @@ input:-ms-input-placeholder {
 /* head title */
 .head_title{
     overflow:hidden;
+    font-size:18px;
+	font-family: 'open_sanslight';
+	color:#8888;
 }
-
 
 /* What i do */
 
