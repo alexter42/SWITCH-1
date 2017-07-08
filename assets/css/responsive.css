@@ -617,14 +617,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         z-index: 0;
         position: absolute;
         left: 0;
-        bottom: 253px;
+        bottom: 300px;
     }
 
     .bottom-img-right{
         z-index: 0;
         position: absolute;
         right: 0;
-        bottom: 250px;
+        bottom: 300px;
         width: 30%;
     }
     .top-img {
