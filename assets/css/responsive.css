@@ -470,7 +470,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 
 
-/* Landscape phones and smaller */
+/* Landscape phones and smaller  mi celu */
 @media (min-width:320px) and (max-width: 479px) {
  
     html {
@@ -799,9 +799,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     
     .head_title{
         overflow:hidden;
-        font-size:8px;
+        font-size: 1rem;
         font-family: 'open_sanslight';
-        color:blue;
+        color:#868686;
+    }
+    
+    .head_title h2 {
+        
+        font-size: 38px;
+        
     }
 
 
