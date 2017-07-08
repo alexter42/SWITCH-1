@@ -694,7 +694,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
     .logo-container-secondary{
         position: relative; 
-        top: 50px;
+        top: 35px;
         width: 100%;
         background-color: white;
         margin: 0 auto;
@@ -703,8 +703,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
     .logo-berkeley-rael {
         width: 100%;
-        height: 80px;
-        padding-top: 20px;
+        height: 50px;
+        padding-top: 13px;
         padding-left: 5px;
         padding-right: 55px;
         box-shadow: rgba(0,0,0,0.74902) 1px 4px 18px -1px;
@@ -714,9 +714,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .logo-berkeley-rael>ul{
         list-style: none;
         padding-left: 0;
-        width: 110%;
+        width: 120%;
         display: flex;
-
+        margin: auto;
     }
 
     .logo-berkeley-rael>ul>li{
