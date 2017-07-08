@@ -602,7 +602,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .container-title {
         margin-top: 7em;
         text-align:center;
-        height:250px;
+        height:240px;
     }
 
 
@@ -617,14 +617,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         z-index: 0;
         position: absolute;
         left: 0;
-        bottom: 213px;
+        bottom: 253px;
     }
 
     .bottom-img-right{
         z-index: 0;
         position: absolute;
         right: 0;
-        bottom: 200px;
+        bottom: 250px;
         width: 30%;
     }
     .top-img {
