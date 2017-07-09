@@ -8,6 +8,6 @@ export default function(root, { email }, context) {
       'emails.0.verified': false,
     },
   });
-  // Accounts.sendVerificationEmail(context.userId);
+  Accounts.sendVerificationEmail(context.userId);
   return Users.findOne(context.userId);
 }

@@ -17,19 +17,10 @@ input File {
   buffer: Buffer!
 }
 
-input Upload {
-  name: String!
-  type: String!
-  size: Int!
-  path: String!
-}
-
 
 type Mutation {
   # User 
   updateUserAvatar(avatar: File!, userId: ID): User
   updateEmail(email: String!, userId: ID): User
   updateUserProfile(profile: UserProfileInput, userId: ID): User  
-  saveSwitchFile(switchFile: Upload!): User!
-  saveFilePoints(pointsFile: Upload!): User!
 }

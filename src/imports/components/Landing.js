@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 export default class L extends React.Component {
-  render() {
+  render () {
     return (
-      <div>
+      <div >
         Dashboard
       </div>
-    );
+    )
   }
 }

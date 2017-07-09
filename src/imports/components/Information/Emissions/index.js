@@ -1,10 +1,16 @@
-import React from 'react';
+import React from 'react'
 import { Responsive, WidthProvider } from 'react-grid-layout'
-const ResponsiveReactLayout = WidthProvider(Responsive);
+import Chart from './Chart'
 
-export default class M extends React.Component {
+const ResponsiveReactGridLayout = WidthProvider(Responsive)
 
-  render() {
+export default class E extends React.Component {
+    componentDidMount(){
+    let { clientHeight, clientWidth } = this.refs.myImgContainer;
+    console.log(clientHeight, clientWidth);
+  }
+  
+  render () {
 
     var layoutLG = [  
       {i: '1', x: 2, y: 3, w: 8, h: .5,resizing:false,static:true},
@@ -35,16 +41,22 @@ export default class M extends React.Component {
       sm: layoutSM,
       xs: layoutXS
     }
-      
+
     return (
 
-      <ResponsiveReactLayout 
-        className="layout" 
-        layouts={layouts}
-        breakpoints={{lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0}}
-        cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}>
+      
 
-      </ResponsiveReactLayout>
-    );
+        <ResponsiveReactGridLayout className="layout" layouts={layouts} width={920}
+          rowHeight={140}
+           breakpoints={{lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0}}
+           cols={{lg: 12, md: 10, sm: 6, xs: 4, xxs: 2}}>
+           <div className='panel' key={"2"} ref="myImgContainer" >
+
+             <Chart/>
+
+             </div>
+        </ResponsiveReactGridLayout>
+
+    )
   }
 }
