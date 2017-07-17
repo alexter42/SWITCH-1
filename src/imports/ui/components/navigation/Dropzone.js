@@ -9,6 +9,7 @@ var componentConfig = {
 }
 
 var djsConfig = {
+  autoProcessQueue: false,
   acceptedFiles: '.csv,.tab',
   showFiletypeIcon: true,
   params: {
@@ -22,7 +23,9 @@ var djsConfig = {
         <div className='dz-details'>
           <div className='dz-file-description'>
             <div className='dz-filename'><span data-dz-name='true'></span></div>
-            <div className='dz-remove dz-remove-icon' data-dz-remove><img src={'./assets/icons/delete.png'} alt='' /></div>
+            <div className='dz-remove dz-remove-icon' data-dz-remove>
+              <img src={'./assets/icons/delete.png'} alt='' />
+            </div>
           </div>
         </div>
       </div>
@@ -32,10 +35,12 @@ var djsConfig = {
 
 export default class D extends React.Component {
   render () {
-    var eventHandlers = { addedfile: file => {
-      console.log(file[0],'file');
+    var eventHandlers = { 
+      addedfile: file => {
+      console.log(file,'file');
       this.props.handleFile(file);
-      } };
+      },
+    };
     return (
       <div>
         <DropzoneComponent
