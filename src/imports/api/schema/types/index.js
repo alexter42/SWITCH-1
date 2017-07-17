@@ -1,4 +1,4 @@
-import Avatar from './avatar.graphql';
-import User from './user.graphql';
+import Avatar from './avatar';
+import User from './user';
 
 export default [Avatar, User];

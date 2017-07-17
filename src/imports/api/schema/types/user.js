@@ -1,19 +1,4 @@
-
-enum UserProfileRegionalOffice {
-  # Regionalzentrum Thun
-  THUN
-  # Regionalzentrum Rüti/ZH
-  RUETI
-  # Regionalzentrum Luzern
-  LUZERN
-  # Centre regional Lausanne
-  LAUSANNE
-  # Regionalzentrum Rivera
-  RIVERA
-  # Regionalzentrum Aarau
-  AARAU
-}
-
+const User = `
 type UserProfile {
   firstName: String!
   lastName: String!
@@ -23,7 +8,6 @@ type UserProfile {
   birthday: Date!
   phoneMobile: String
   hometown: String
-  regionalOffice: UserProfileRegionalOffice
 }
 
 type UserEmail {
@@ -42,4 +26,6 @@ type User {
   emails: [UserEmail]
   roles: [ID]
   internalComment: String
-}
+}`;
+
+export default [User];

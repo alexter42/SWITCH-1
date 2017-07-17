@@ -1,4 +1,3 @@
-import { Meteor } from 'meteor/meteor';
 import { Accounts } from 'meteor/accounts-base';
 import cloneDeep from 'lodash/cloneDeep';
 import Users from '../../../api/collections/users';
