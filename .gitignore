@@ -10,4 +10,5 @@ src/*.iml
 src/.bundle/*
 src/npm-debug.log
 src/.tmp
+src/package.json
 
